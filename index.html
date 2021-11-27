@@ -12,21 +12,64 @@
 
   gtag('config', 'G-KSWRP05R0Y');
 </script>
+ <style>
+ body{
+   margin:0;
+ }
+  a {
+    color:black;
+    text-decoration: none;
+  }
+  #active {
+    color:red;
+  }
+  .saw {
+    color:gray;
+  }
+  h1 {
+    font-size: 60px;
+    text-align: center;
+    border-bottom:1px solid gray;
+    margin:0;
+    padding:20px;
+  }
+  ol{
+    border-right:1px solid gray;
+    width:100px;
+    margin:0;
+    padding-left:33px;
+  }
+  #grid{
+    display: grid;
+    grid-template-columns:150px 1fr;
+  }
+ </style>
 </head>
 <body>
   <h1><a href="index.html">YOUNGEUN</a></h1>
-<ol>Index
-  <li><a href="1.html">HTML</a></li>
-  <li><a href="2.html">CSS</a></li>
-  <li><a href="3.html">JavaScript</a></li>
-</ol>
-<h2>YoungEunYun</h2>
-<img src="img1_.jpg" width="300">
-<P><h4>Profile</h4><br>LG디스플레이 회계팀 <br>중앙대학교 졸업
-<P><h4>Contact</h4><br><a href="" target="_blank" title="html5 speicification">blog</a>
-<br><a href="" target="_blank" title="html5 speicification">instgram</a>
-<div id="disqus_thread"></div>
-
+  <div id="grid">
+  <ol>
+   <li><a href="1.html"class="saw">HTML</a></li>
+   <li><a href="2.html"class="saw" id="active">CSS</a></li>
+   <li><a href="3.html">JavaScript</a></li>
+  </ol>
+  <!--
+  <h1><a href="index.html"><font clolor="red">YOUNGEUN</font></a></h1>
+  <ol>
+   <li><a href="1.html"><font clolor="red">HTML</font></a></li>
+   <li><a href="2.html"><font clolor="red">CSS</font></a></li>
+   <li><a href="3.html"><font clolor="red">JavaScript</font></a></li>
+  </ol>
+-->
+   <div>
+    <h2>YoungEunYun</h2>
+    <img src="img1_.jpg" width="300">
+    <P><h4>Profile</h4><br><font color="blue">LG디스플레이 회계팀</font> <br>중앙대학교 졸업
+    <P><h4>Contact</h4><br><a href="" target="_blank" title="html5 speicification">blog</a>
+    <br><a href="" target="_blank" title="html5 speicification">instgram</a>
+    <div id="disqus_thread"></div>
+   </div>
+ </div>
 <script>
     /**
     *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
